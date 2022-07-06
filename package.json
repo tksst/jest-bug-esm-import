@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "imports": {
+    "#ext": "./ext.js"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "devDependencies": {
+    "jest": "28.1.2"
+  }
+}
